@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Steper Kuo">
+	<title>Flex-Container: Style List</title>
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+	<link rel="icon" href="../assets/img/favicon.png">
+
+	<!-- Style custom *** CSS -->
+	<style id="demoCSS" type="text/css">
+		/* Demo's CSS here */
+
+	</style>
+
+	<link href="flex.css" rel="stylesheet">
+
+	<!--Jquery.js, HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Script Google Analytics *** JS -->
+	<script src="https://gyx8899.github.io/YX-WebThemeKit/fn-google-analytics/googleAnalytics.js"></script>
+
+</head>
+<body>
+
+<!-- Script Preload code *** JS -->
+<script
+		src="https://gyx8899.github.io/YX-WebThemeKit/fn-pre-loader/square-split-combination/preLoader-auto.js"></script>
+
+<main>
+
+	<!-- Demos -->
+	<section id="demos">
+		<div class="row">
+			<div id="demoWrap" class="large-12 columns">
+				<div id="demoHTML">
+					<!--Demo's html here-->
+					<h4>1. flex-direction: 决定主轴的方向(即项目的排列方向)</h4>
+					<h5 class="title">1.1 flex-direction: row</h5>
+					<div class="container direction-row">
+						<div class="item item-direction item1">1</div>
+						<div class="item item-direction item2">2</div>
+						<div class="item item-direction item3">3</div>
+					</div>
+					<h5 class="title">1.2 flex-direction: row-reverse</h5>
+					<div class="container direction-row-reverse">
+						<div class="item item-direction item1">1</div>
+						<div class="item item-direction item2">2</div>
+						<div class="item item-direction item3">3</div>
+					</div>
+					<h5 class="title">1.3 flex-direction: column</h5>
+					<div class="container direction-column">
+						<div class="item item-direction item1">1</div>
+						<div class="item item-direction item2">2</div>
+						<div class="item item-direction item3">3</div>
+					</div>
+					<h5 class="title">1.4 flex-direction: column-reverse</h5>
+					<div class="container direction-column-reverse">
+						<div class="item item-direction item1">1</div>
+						<div class="item item-direction item2">2</div>
+						<div class="item item-direction item3">3</div>
+					</div>
+					<h4>2. flex-wrap: 决定容器内项目是否可换行</h4>
+					<h5 class="title">2.1 flex-wrap: nowrap</h5>
+					<div class="container wrap-nowrap">
+						<div class="item item-wrap item1">1</div>
+						<div class="item item-wrap item2">2</div>
+						<div class="item item-wrap item3">3</div>
+						<div class="item item-wrap item4">4</div>
+						<div class="item item-wrap item5">5</div>
+						<div class="item item-wrap item6">6</div>
+					</div>
+					<h5 class="title">2.2 flex-wrap: wrap</h5>
+					<div class="container wrap-wrap">
+						<div class="item item-wrap item1">1</div>
+						<div class="item item-wrap item2">2</div>
+						<div class="item item-wrap item3">3</div>
+						<div class="item item-wrap item4">4</div>
+						<div class="item item-wrap item5">5</div>
+						<div class="item item-wrap item6">6</div>
+					</div>
+					<h5 class="title">2.3 flex-wrap: wrap-reverse</h5>
+					<div class="container wrap-wrap-reverse">
+						<div class="item item-wrap item1">1</div>
+						<div class="item item-wrap item2">2</div>
+						<div class="item item-wrap item3">3</div>
+						<div class="item item-wrap item4">4</div>
+						<div class="item item-wrap item5">5</div>
+						<div class="item item-wrap item6">6</div>
+					</div>
+					<h4>3. justify-content：定义了项目在主轴的对齐方式。</h4>
+					<h5 class="title">3.1 justify-content: flex-start</h5>
+					<div class="container justify-flex-start">
+						<div class="item item-justify item1">1</div>
+						<div class="item item-justify item2">2</div>
+						<div class="item item-justify item3">3</div>
+						<div class="item item-justify item4">4</div>
+						<div class="item item-justify item5">5</div>
+					</div>
+					<h5 class="title">3.2 justify-content: flex-end</h5>
+					<div class="container justify-flex-end">
+						<div class="item item-justify item1">1</div>
+						<div class="item item-justify item2">2</div>
+						<div class="item item-justify item3">3</div>
+						<div class="item item-justify item4">4</div>
+						<div class="item item-justify item5">5</div>
+					</div>
+					<h5 class="title">3.3 justify-content: center</h5>
+					<div class="container justify-center">
+						<div class="item item-justify item1">1</div>
+						<div class="item item-justify item2">2</div>
+						<div class="item item-justify item3">3</div>
+						<div class="item item-justify item4">4</div>
+						<div class="item item-justify item5">5</div>
+					</div>
+					<h5 class="title">3.4 justify-content: space-between</h5>
+					<div class="container justify-space-between">
+						<div class="item item-justify item1">1</div>
+						<div class="item item-justify item2">2</div>
+						<div class="item item-justify item3">3</div>
+						<div class="item item-justify item4">4</div>
+						<div class="item item-justify item5">5</div>
+					</div>
+					<h5 class="title">3.5 justify-content: space-around</h5>
+					<div class="container justify-space-around">
+						<div class="item item-justify item1">1</div>
+						<div class="item item-justify item2">2</div>
+						<div class="item item-justify item3">3</div>
+						<div class="item item-justify item4">4</div>
+						<div class="item item-justify item5">5</div>
+					</div>
+					<h4>4. align-items: 定义了项目在交叉轴上的对齐方式</h4>
+					<h5 class="title">4.1 align-items: flex-start</h5>
+					<div class="container container-align align-flex-start">
+						<div class="item item-align item1">1</div>
+						<div class="item item-align item2">2</div>
+						<div class="item item-align item3">3</div>
+						<div class="item item-align item4">4</div>
+						<div class="item item-align item5">5</div>
+					</div>
+					<h5 class="title">4.2 align-items: flex-end</h5>
+					<div class="container container-align align-flex-end">
+						<div class="item item-align item1">1</div>
+						<div class="item item-align item2">2</div>
+						<div class="item item-align item3">3</div>
+						<div class="item item-align item4">4</div>
+						<div class="item item-align item5">5</div>
+					</div>
+					<h5 class="title">4.3 align-items: center</h5>
+					<div class="container container-align align-center">
+						<div class="item item-align item1">1</div>
+						<div class="item item-align item2">2</div>
+						<div class="item item-align item3">3</div>
+						<div class="item item-align item4">4</div>
+						<div class="item item-align item5">5</div>
+					</div>
+					<h5 class="title">4.4 align-items: baseline</h5>
+					<div class="container container-align align-baseline">
+						<div class="item item-align item1">1</div>
+						<div class="item item-align item2">2</div>
+						<div class="item item-align item3">3</div>
+						<div class="item item-align item4">4</div>
+						<div class="item item-align item5">5</div>
+					</div>
+					<h5 class="title">4.5 align-items: stretch</h5>
+					<div class="container container-align align-stretch">
+						<div class="item item-align item1">1</div>
+						<div class="item item-align item2">2</div>
+						<div class="item item-align item3">3</div>
+						<div class="item item-align item4">4</div>
+						<div class="item item-align item5">5</div>
+					</div>
+					<h4>5. align-content: 定义了多根轴线的对齐方式，如果项目只有一根轴线，那么该属性将不起作用</h4>
+					<div>当你 flex-wrap 设置为 nowrap 的时候，容器仅存在一根轴线，因为项目不会换行，就不会产生多条轴线。</div>
+					<div>当你 flex-wrap 设置为 wrap 的时候，容器可能会出现多条轴线，这时候你就需要去设置多条轴线之间的对齐方式了。</div>
+					<div>建立在主轴为水平方向时测试，即 flex-direction: row, flex-wrap: wrap</div>
+					<h5 class="title">5.1 align-content: flex-start</h5>
+					<div class="container container-align-content align-content-flex-start">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+					<h5 class="title">5.2 align-content: flex-end</h5>
+					<div class="container container-align-content align-content-flex-end">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+					<h5 class="title">5.3 align-content: center</h5>
+					<div class="container container-align-content align-content-center">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+					<h5 class="title">5.4 align-content: space-between</h5>
+					<div class="container container-align-content align-content-space-between">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+					<h5 class="title">5.5 align-content: space-around</h5>
+					<div class="container container-align-content align-content-space-around">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+					<h5 class="title">5.6 align-content: stretch (Default)</h5>
+					<div class="container container-align-content align-content-stretch">
+						<div class="item item-align-content">1</div>
+						<div class="item item-align-content">2</div>
+						<div class="item item-align-content">3</div>
+						<div class="item item-align-content">4</div>
+						<div class="item item-align-content">5</div>
+						<div class="item item-align-content">6</div>
+						<div class="item item-align-content">7</div>
+						<div class="item item-align-content">8</div>
+						<div class="item item-align-content">9</div>
+						<div class="item item-align-content">10</div>
+						<div class="item item-align-content">11</div>
+						<div class="item item-align-content">12</div>
+					</div>
+				</div>
+				<!--Introduction here-->
+				<p>
+
+				</p>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!-- Script Common *** JS -->
+<script src="https://gyx8899.github.io/YX-JS-ToolKit/assets/js/common.js"></script>
+
+<!-- Script Theme *** JS -->
+<script src="https://gyx8899.github.io/YX-WebThemeKit/theme-header-footer/owl/headerFooter-owl.js"></script>
+
+<!-- Script PreViewCode *** JS-->
+<script src="https://gyx8899.github.io/YX-WebThemeKit/fn-preview-code/previewCode-auto.js" defer></script>
+
+<!-- Script Demo *** JS -->
+<script id="demoJS" type="text/javascript">
+	// Demo's JS here
+
+</script>
+</body>
+</html>

@@ -5,42 +5,57 @@
 	<title>Title</title>
 </head>
 <body>
-<h2>Default</h2>
-<div class="event-wrapper">
-	<div class="event-date">Sat Sep 14</div>
-	<div class="event-title">Typhoon with Radiation City</div>
-	<div class="event-title">CANCELLED - Typhoon with Radiation City</div>
-	<div class="event-venue">
-		The Hi-Dive
-		<div class="address">
-			7 S. Broadway<br>
-			Denver, CO 80209
-			</div>
-		</div>
-	<div class="event-time">9:30 PM</div>
-	<div class="event-price">$13.00</div>
-	<a href="http://www.ticketfly.com/purchase/309433">Tickets</a>
-</div>
-<h2>Microdata Test</h2>
-<div class="event-wrapper" itemscope itemtype="http://schema.org/Event">
-	<div class="event-date" itemprop="startDate" content="2013-09-14T21:30">Sat Sep 14</div>
-	<div class="event-title" itemprop="name">CANCELLED - Typhoon with Radiation City</div>
-	<meta itemprop="eventStatus" content="http://schema.org/EventCancelled">
-	<div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
-		<span itemprop="name">The Hi-Dive</span>
-		<div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			<span itemprop="streetAddress">7 S. Broadway</span><br>
-			<span itemprop="addressLocality">Denver</span>,
-			<span itemprop="addressRegion">CO</span>
-			<span itemprop="postalCode">80209</span>
+<div class="container">
+	<div class="event-date">
+		<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>
+		<span itemprop="startDate" content="2018-06-30 22:00:00.0" class="date-value" data-toggle="formatLocalDate"
+					data-time="1530410400000" data-format="dd / MM / yyyy, HH:mm">01 / 07 / 2018, 10:00 CST</span>
+		<span class="display-none" itemprop="endDate" content="2018-06-30 23:59:00.0"></span>
+	</div>
+
+
+	<h2>
+		<a itemprop="url" href="/video/2018-danish-fim-speedway-grand-prix" class="event-title"
+			 title="2018 DANISH FIM SPEEDWAY GRAND PRIX">
+			<span itemprop="name">2018 DANISH FIM SPEEDWAY GRAND PRIX</span>
+		</a>
+	</h2>
+	<h4 class="event-detail" title="ROUND 3 - CASA ARENA">
+		<span itemprop="description">ROUND 3 - CASA ARENA</span>
+	</h4>
+	<div class="display-none" itemprop="location" itemscope="" itemtype="http://schema.org/City">
+		<span itemprop="name"></span>
+		<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+			<span itemprop="streetAddress"></span>
 		</div>
 	</div>
-	<div class="event-time">9:30 PM</div>
-	<span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-  <div class="event-price" itemprop="price" content="13.00">$13.00</div>
-  <span itemprop="priceCurrency" content="USD"/>
-  <a itemprop="url" href="http://www.ticketfly.com/purchase/309433">Tickets</a>
- </span>
+
+
+	<div class="event-countdown">
+		<div id="countdown" data-toggle="countdown" data-enddate="2018-07-01T02:00:00.000Z" data-isprefixzero="false"
+				 data-currentsevertime="1529765998713" data-timeactiontype="refresh0" data-init="auto">
+
+
+			<ul>
+				<li>
+					<p data-time="day">7</p>
+					<span>DAYS</span>
+				</li>
+				<li>
+					<p data-time="hour">10</p>
+					<span>HRS</span>
+				</li>
+				<li>
+					<p data-time="min">59</p>
+					<span>MINS</span>
+				</li>
+				<li>
+					<p data-time="sec">6</p>
+					<span>SECS</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
 </body>
 </html>

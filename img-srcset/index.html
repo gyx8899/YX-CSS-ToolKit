@@ -57,8 +57,13 @@
 					<!--Demo's html here-->
 					<img class="img-srcset-w"
 							 src="https://dummyimage.com/16:9x1080&text=1920x1080-1920w"
-							 srcset="https://dummyimage.com/16:9x360&text=640x360-640w 640w, https://dummyimage.com/16:9x540&text=960x540-960w 960w, https://dummyimage.com/16:9x720&text=1280x720-1280w 1280w">
-					<p>img width 100%</p>
+							 srcset="https://dummyimage.com/16:9x360&text=640x360-640w 640w, https://dummyimage.com/16:9x540&text=960x540-960w 960w, https://dummyimage.com/16:9x720&text=1280x720-1280w 1280w, https://dummyimage.com/16:9x1080&text=1920x1080-1920w 1920w">
+				</div>
+				<div>
+					<p>width * dpi <= 640w => 640x360-640w</p>
+					<p>640w < width * dpi <= 960w => 960x540-960w</p>
+					<p>960w < width * dpi <= 1280w => 1280x720-1280w</p>
+					<p>960w < width * dpi <= 1290w => 1920x1080-1920w</p>
 				</div>
 			</div>
 		</div>

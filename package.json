@@ -1,0 +1,20 @@
+{
+  "name": "YX-CSS-ToolKit",
+  "version": "1.0.0",
+  "description": "CSS Toolkit",
+  "main": "index.js",
+  "scripts": {
+    "git-push": "cd ../yx-env && git-push.sh YX-CSS-ToolKit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyx8899/YX-CSS-ToolKit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyx8899/YX-CSS-ToolKit/issues"
+  },
+  "homepage": "https://github.com/gyx8899/YX-CSS-ToolKit#readme"
+}

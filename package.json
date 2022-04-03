@@ -4,7 +4,8 @@
   "description": "CSS Toolkit",
   "main": "index.js",
   "scripts": {
-    "git-push": "cd ../yx-env && git-push.sh YX-CSS-ToolKit"
+    "git-push": "cd ../yx-env && git-push.sh YX-CSS-ToolKit",
+    "git-push-mac": "cd ../yx-env && bash git-push.sh YX-CSS-ToolKit"
   },
   "repository": {
     "type": "git",
